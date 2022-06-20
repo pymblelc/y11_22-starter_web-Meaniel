@@ -1,0 +1,103 @@
+body {
+    cursor: auto;
+  }
+  
+  .title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    background-color: #a7e8a7;
+    padding: 14px;
+  }
+  
+  .subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    background-color: #a7e8a7;
+    padding: 10px;
+  }
+  
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: rgb(255, 218, 223);
+    padding: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: left;
+  }
+  
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+  }
+  
+  .pfp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .info:hover {
+    background: url("images/msun2023.jpg");
+  }
+  
+  .subjectsMain {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .subjects {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .nav {
+    background-color: rgb(255, 146, 163);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .material-symbols-rounded {
+    color: #beffbe;
+    font-size: 48px;
+    margin-right: 10px;
+  }
+  
+  .material-symbols-rounded:hover {
+    filter: drop-shadow(0 0 0.5rem rgb(223, 0, 33));
+    color: white;
+    transform: scale(1.2);
+  }
+  
+  .pressMe {
+    background-color: rgb(255, 146, 163);
+    text-align: center;
+  }
+  
+  .bttn {
+    width: 85px;
+  }
+  
+  .left-side {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bttn:hover {
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+  }
+  
+  .hiBtn {
+    height: 80%;
+    width: 100px;
+    background-color: #a7e8a7;
+    border-color: #a7e8a7;
+  }
+  
+  .dog{
+    width: 100%;
+  }
+  
