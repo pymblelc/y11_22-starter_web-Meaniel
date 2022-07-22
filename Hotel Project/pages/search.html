@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="search.js" defer></script>
+</head>
+
+<body>
+    <div class="nav">
+        <a class="navLink" href="../index.html">
+            <span class="material-symbols-outlined"> hotel </span>
+        </a>
+        <a class="navLink" href="locations.html">Locations</a>
+        <a class="navLink" href="search.html">Find a room</a>
+        <a class="navLink" href="checkin.html">Check in</a>
+    </div>
+
+    <div>
+        <h1 class="subtitle">Search for a room</h1>
+
+        <div class="textInput">
+            <p class="searchLabel">Location:</p>
+            <input type="text" class="textbox" id="inputPhone" />
+        </div>
+
+        <div class="dateInput">
+            <p class="searchLabel">Date:</p>
+            <input type="text" class="inputDate" />
+            <p class="to">to</p>
+            <input type="text" class="inputDate" />
+        </div>
+
+        <div class="textInput">
+            <p class="searchLabel">Days:</p>
+            <input type="text" class="textbox" id="days" />
+        </div>
+
+        <div class="textInput">
+            <p class="searchLabel">Guests:</p>
+            <input type="text" class="textbox" id="guests" />
+        </div>
+
+        <div>
+            <p></p> <!-- adds a space -->
+            <button class="btnSubmit" id="btnSearch" onclick="toggle()">Search</button>
+        </div>
+    </div>
+
+    <div id="results">
+
+    </div>
+
+</body>
+
+</html>
